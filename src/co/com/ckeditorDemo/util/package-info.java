@@ -5,4 +5,4 @@
  * @author user
  *
  */
-package co.com.ckeditor.util;
+package co.com.ckeditorDemo.util;
