@@ -6,6 +6,7 @@
     xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
     xmlns:ace="http://www.icefaces.org/icefaces/components"
     xmlns:icecore="http://www.icefaces.org/icefaces/core"
+    xmlns:ice="http://www.icesoft.com/icefaces/component"
     xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
 <head>
   <title><ui:insert name="title">Default title</ui:insert></title>
@@ -30,6 +31,9 @@
     	 <ace:panel header="My First ICEfaces 4 project"
 	                    toggleable="true">
 	               Welcome to ICEFaces
+	               
+	               <ice:inputTextarea rows="5" cols="20">
+	               </ice:inputTextarea>
 	         </ace:panel>
     	
     	 <ace:panel id="panel">
